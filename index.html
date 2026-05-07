@@ -1,268 +1,252 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2685.3">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Xinran (Ryan) Dai</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Inter',sans-serif;background:#f5f0ea;color:#1c160f;font-size:15px;line-height:1.75}
+#site{display:flex;flex-direction:column;min-height:100vh}
+#topnav{background:#e8e0d4;padding:0 1.5rem;display:flex;flex-wrap:wrap;border-bottom:1px solid #d4c9b8}
+#topnav a{color:#6b5c4c;text-decoration:none;font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;padding:.75rem .85rem;display:block;border-bottom:2px solid transparent;transition:color .12s}
+#topnav a:hover{color:#1c160f;background:#ddd5c6}
+#topnav a.active{color:#1c160f;border-bottom:2px solid #8b3820}
+#body{display:flex;flex:1}
+#sidebar{width:220px;flex-shrink:0;padding:1.8rem 1.2rem 2rem;border-right:1px solid #d4c9b8;background:#ede7de}
+.sb-photo{width:160px;height:200px;overflow:hidden;margin-bottom:1rem}
+#prof-img{width:160px;height:200px;object-fit:cover;object-position:center 18%}
+.photo-fb{width:160px;height:200px;background:#ddd8cf;display:flex;align-items:center;justify-content:center;font-size:2rem;color:#999}
+.sb-name{font-size:1rem;font-weight:600;margin-bottom:.15rem;line-height:1.3}
+.sb-title{font-size:.8rem;color:#666;margin-bottom:.2rem;line-height:1.4}
+.sb-inst{font-size:.8rem;color:#666;margin-bottom:1rem;line-height:1.4}
+.sb-links{display:flex;flex-direction:column;gap:.35rem}
+.sb-links a{font-size:.8rem;color:#555;text-decoration:none;display:flex;align-items:center;gap:.4rem}
+.sb-links a:hover{color:#8b3820}
+#main{flex:1;padding:2.2rem 2.4rem 4rem;max-width:720px}
+.page{display:none}
+.page.on{display:block}
+h1{font-size:1.4rem;font-weight:600;margin-bottom:.4rem;line-height:1.3}
+h2{font-size:1rem;font-weight:600;margin:2rem 0 .8rem;border-bottom:1px solid #d4c9b8;padding-bottom:.35rem;color:#1c160f}
+h2:first-child{margin-top:0}
+h3{font-size:.85rem;font-weight:600;color:#444;margin:1.4rem 0 .5rem;text-transform:uppercase;letter-spacing:.1em}
+p{font-size:.92rem;margin-bottom:.75rem;color:#2c2c2c}
+a.lk{color:#8b3820;text-decoration:none}
+a.lk:hover{text-decoration:underline}
+.tag{display:inline-block;background:#e4dbd0;color:#5c4a38;font-size:.73rem;padding:.15rem .55rem;border-radius:2px;margin-right:.3rem;margin-top:.3rem}
+.dl-btn{display:inline-block;background:#8b3820;color:#fff;padding:.45rem 1.2rem;font-size:.82rem;text-decoration:none;margin-top:.5rem;transition:background .12s}
+.dl-btn:hover{background:#6e2c18}
+.paper{padding:.8rem 0;border-bottom:.5px solid #ddd5c6}
+.paper:last-child{border-bottom:none}
+.ptitle{font-size:.93rem;font-weight:600;margin-bottom:.15rem}
+.pauth{font-size:.83rem;color:#666;margin-bottom:.25rem}
+.abs-toggle{font-size:.78rem;color:#8b3820;cursor:pointer;background:none;border:none;padding:0;font-family:inherit;text-decoration:underline;text-underline-offset:2px}
+.abs-toggle:hover{color:#6e2c18}
+.abstract{display:none;margin-top:.6rem;padding:.75rem 1rem;background:#ede7de;border-left:2px solid #c8bba9;font-size:.85rem;color:#3a3028;line-height:1.7}
+.abstract.open{display:block}
+.talk{padding:.6rem 0;border-bottom:.5px solid #ddd5c6;display:flex;gap:.9rem;font-size:.88rem}
+.talk:last-child{border-bottom:none}
+.tyr{color:#888;min-width:2.5rem;flex-shrink:0;font-size:.8rem;padding-top:.05rem}
+.arow{display:flex;justify-content:space-between;gap:.5rem;padding:.55rem 0;border-bottom:.5px solid #ddd5c6;font-size:.88rem}
+.arow:last-child{border-bottom:none}
+.ayr{color:#888;font-size:.82rem;flex-shrink:0}
+.gbox{background:#e8e0d4;border-left:3px solid #8b6914;padding:.8rem 1rem;margin-bottom:1rem;font-size:.88rem}
+.gbox p{margin-bottom:.25rem;font-size:.88rem}
+.edu{padding:.5rem 0;border-bottom:.5px solid #ddd5c6;font-size:.88rem}
+.edu:last-child{border-bottom:none}
+strong{font-weight:600}
+</style>
 </head>
 <body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html lang="en"&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1">&lt;meta charset="UTF-8"&gt;</p>
-<p class="p1">&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
-<p class="p1">&lt;title&gt;Xinran (Ryan) Dai&lt;/title&gt;</p>
-<p class="p1">&lt;style&gt;</p>
-<p class="p1">*{box-sizing:border-box;margin:0;padding:0}</p>
-<p class="p1">body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Inter',sans-serif;background:#f5f0ea;color:#1c160f;font-size:15px;line-height:1.75}</p>
-<p class="p1">#site{display:flex;flex-direction:column;min-height:100vh}</p>
-<p class="p1">#topnav{background:#e8e0d4;padding:0 1.5rem;display:flex;flex-wrap:wrap;border-bottom:1px solid #d4c9b8}</p>
-<p class="p1">#topnav a{color:#6b5c4c;text-decoration:none;font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;padding:.75rem .85rem;display:block;border-bottom:2px solid transparent;transition:color .12s}</p>
-<p class="p1">#topnav a:hover{color:#1c160f;background:#ddd5c6}</p>
-<p class="p1">#topnav a.active{color:#1c160f;border-bottom:2px solid #8b3820}</p>
-<p class="p1">#body{display:flex;flex:1}</p>
-<p class="p1">#sidebar{width:220px;flex-shrink:0;padding:1.8rem 1.2rem 2rem;border-right:1px solid #d4c9b8;background:#ede7de}</p>
-<p class="p1">.sb-photo{width:160px;height:200px;overflow:hidden;margin-bottom:1rem}</p>
-<p class="p1">#prof-img{width:160px;height:200px;object-fit:cover;object-position:center 18%}</p>
-<p class="p1">.photo-fb{width:160px;height:200px;background:#ddd8cf;display:flex;align-items:center;justify-content:center;font-size:2rem;color:#999}</p>
-<p class="p1">.sb-name{font-size:1rem;font-weight:600;margin-bottom:.15rem;line-height:1.3}</p>
-<p class="p1">.sb-title{font-size:.8rem;color:#666;margin-bottom:.2rem;line-height:1.4}</p>
-<p class="p1">.sb-inst{font-size:.8rem;color:#666;margin-bottom:1rem;line-height:1.4}</p>
-<p class="p1">.sb-links{display:flex;flex-direction:column;gap:.35rem}</p>
-<p class="p1">.sb-links a{font-size:.8rem;color:#555;text-decoration:none;display:flex;align-items:center;gap:.4rem}</p>
-<p class="p1">.sb-links a:hover{color:#8b3820}</p>
-<p class="p1">#main{flex:1;padding:2.2rem 2.4rem 4rem;max-width:720px}</p>
-<p class="p1">.page{display:none}</p>
-<p class="p1">.page.on{display:block}</p>
-<p class="p1">h1{font-size:1.4rem;font-weight:600;margin-bottom:.4rem;line-height:1.3}</p>
-<p class="p1">h2{font-size:1rem;font-weight:600;margin:2rem 0 .8rem;border-bottom:1px solid #d4c9b8;padding-bottom:.35rem;color:#1c160f}</p>
-<p class="p1">h2:first-child{margin-top:0}</p>
-<p class="p1">h3{font-size:.85rem;font-weight:600;color:#444;margin:1.4rem 0 .5rem;text-transform:uppercase;letter-spacing:.1em}</p>
-<p class="p1">p{font-size:.92rem;margin-bottom:.75rem;color:#2c2c2c}</p>
-<p class="p1">a.lk{color:#8b3820;text-decoration:none}</p>
-<p class="p1">a.lk:hover{text-decoration:underline}</p>
-<p class="p1">.tag{display:inline-block;background:#e4dbd0;color:#5c4a38;font-size:.73rem;padding:.15rem .55rem;border-radius:2px;margin-right:.3rem;margin-top:.3rem}</p>
-<p class="p1">.dl-btn{display:inline-block;background:#8b3820;color:#fff;padding:.45rem 1.2rem;font-size:.82rem;text-decoration:none;margin-top:.5rem;transition:background .12s}</p>
-<p class="p1">.dl-btn:hover{background:#6e2c18}</p>
-<p class="p1">.paper{padding:.8rem 0;border-bottom:.5px solid #ddd5c6}</p>
-<p class="p1">.paper:last-child{border-bottom:none}</p>
-<p class="p1">.ptitle{font-size:.93rem;font-weight:600;margin-bottom:.15rem}</p>
-<p class="p1">.pauth{font-size:.83rem;color:#666;margin-bottom:.25rem}</p>
-<p class="p1">.abs-toggle{font-size:.78rem;color:#8b3820;cursor:pointer;background:none;border:none;padding:0;font-family:inherit;text-decoration:underline;text-underline-offset:2px}</p>
-<p class="p1">.abs-toggle:hover{color:#6e2c18}</p>
-<p class="p1">.abstract{display:none;margin-top:.6rem;padding:.75rem 1rem;background:#ede7de;border-left:2px solid #c8bba9;font-size:.85rem;color:#3a3028;line-height:1.7}</p>
-<p class="p1">.abstract.open{display:block}</p>
-<p class="p1">.talk{padding:.6rem 0;border-bottom:.5px solid #ddd5c6;display:flex;gap:.9rem;font-size:.88rem}</p>
-<p class="p1">.talk:last-child{border-bottom:none}</p>
-<p class="p1">.tyr{color:#888;min-width:2.5rem;flex-shrink:0;font-size:.8rem;padding-top:.05rem}</p>
-<p class="p1">.arow{display:flex;justify-content:space-between;gap:.5rem;padding:.55rem 0;border-bottom:.5px solid #ddd5c6;font-size:.88rem}</p>
-<p class="p1">.arow:last-child{border-bottom:none}</p>
-<p class="p1">.ayr{color:#888;font-size:.82rem;flex-shrink:0}</p>
-<p class="p1">.gbox{background:#e8e0d4;border-left:3px solid #8b6914;padding:.8rem 1rem;margin-bottom:1rem;font-size:.88rem}</p>
-<p class="p1">.gbox p{margin-bottom:.25rem;font-size:.88rem}</p>
-<p class="p1">.edu{padding:.5rem 0;border-bottom:.5px solid #ddd5c6;font-size:.88rem}</p>
-<p class="p1">.edu:last-child{border-bottom:none}</p>
-<p class="p1">strong{font-weight:600}</p>
-<p class="p1">&lt;/style&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;body&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;div id="site"&gt;</p>
-<p class="p1">&lt;nav id="topnav"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;a href="#" class="active" onclick="go('home',this);return false"&gt;Home&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;a href="#" onclick="go('research',this);return false"&gt;Research&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;a href="#" onclick="go('talks',this);return false"&gt;Talks&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;a href="#" onclick="go('teaching',this);return false"&gt;Teaching&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;a href="#" onclick="go('service',this);return false"&gt;Service&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;a href="#" onclick="go('awards',this);return false"&gt;Awards&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;a href="#" onclick="go('grants',this);return false"&gt;Grants&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;a href="#" onclick="go('cv',this);return false"&gt;CV&lt;/a&gt;</p>
-<p class="p1">&lt;/nav&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;div id="body"&gt;</p>
-<p class="p1">&lt;aside id="sidebar"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="sb-photo"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;img id="prof-img" src="https://i.imgur.com/EoY77Sy.jpeg" alt="Xinran (Ryan) Dai" onerror="this.style.display='none';document.getElementById('prof-fb').style.display='flex'"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div id="prof-fb" class="photo-fb" style="display:none"&gt;RD&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="sb-name"&gt;Xinran (Ryan) Dai&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="sb-title"&gt;PhD Candidate in&lt;br&gt;Risk &amp;amp; Actuarial Studies&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="sb-inst" style="margin-top:.3rem"&gt;UNSW Sydney&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="sb-links"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="mailto:ryan.dai@unsw.edu.au" class="lk" style="font-size:.8rem"&gt;&amp;#9993; ryan.dai@unsw.edu.au&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="https://www.linkedin.com/in/xinran-ryan-dai-b28254187/" class="lk" style="font-size:.8rem" target="_blank"&gt;LinkedIn&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p1">&lt;/aside&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;main id="main"&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- HOME --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div id="p-home" class="page on"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h1&gt;Xinran (Ryan) Dai&lt;/h1&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p style="color:#666;margin-bottom:1.3rem;font-size:.88rem"&gt;PhD Candidate &amp;middot; School of Risk &amp;amp; Actuarial Studies &amp;middot; UNSW Business School &amp;middot; Sydney, Australia&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;Welcome! I am a final-year PhD candidate in Risk and Actuarial Studies at the University of New South Wales, Sydney. My research sits at the intersection of actuarial science, mathematical finance, and environmental economics. I am very fortunate to be advised by &lt;a href="https://www.unsw.edu.au/staff/qihe-tang" class="lk" target="_blank"&gt;Prof. Qihe Tang&lt;/a&gt;, &lt;a href="https://findanexpert.unimelb.edu.au/profile/606983-han-li" class="lk" target="_blank"&gt;A/Prof. Han Li&lt;/a&gt;, and &lt;a href="https://www.columbia.edu/~khl2114/" class="lk" target="_blank"&gt;A/Prof. Henry Lam&lt;/a&gt;.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;I am currently on the academic job market and welcome inquiries about research and teaching positions.&lt;/p&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Research Interests&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;Climate Change and Insurance &amp;middot; Carbon Pricing &amp;middot; Integrated Assessment Modeling &amp;middot; Uncertainty&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div style="margin-top:.5rem"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;span class="tag"&gt;Climate Risk&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;span class="tag"&gt;Carbon Pricing&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;span class="tag"&gt;Insurance&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;span class="tag"&gt;Stochastic Modeling&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;span class="tag"&gt;Integrated Assessment&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;span class="tag"&gt;Uncertainty&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Education&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div style="border-top:.5px solid #ddd5c6"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="edu"&gt;&lt;strong&gt;UNSW Sydney&lt;/strong&gt; &amp;middot; Ph.D. in Risk and Actuarial Studies, 2023&amp;ndash;Present&lt;br&gt;&lt;span style="color:#666;font-size:.83rem"&gt;Supervisors: Prof. Qihe Tang, A/Prof. Han Li, A/Prof. Henry Lam&lt;/span&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="edu"&gt;&lt;strong&gt;SWUFE&lt;/strong&gt; &amp;middot; M.A. in Mathematical Finance, 2019&amp;ndash;2022&lt;br&gt;&lt;span style="color:#666;font-size:.83rem"&gt;Supervisor: Prof. Jingtang Ma&lt;/span&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="edu"&gt;&lt;strong&gt;SWUFE&lt;/strong&gt; &amp;middot; B.S. in Mathematics and Applied Mathematics, 2015&amp;ndash;2019&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="edu"&gt;&lt;strong&gt;SWUFE&lt;/strong&gt; &amp;middot; B.A. in Economics, 2015&amp;ndash;2019&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- RESEARCH --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div id="p-research" class="page"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h1&gt;Research&lt;/h1&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Working Papers&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="paper"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="ptitle"&gt;Pricing Carbon under the Emissions Trading System&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="pauth"&gt;Ryan Dai, Henry Lam, and Qihe Tang&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;button class="abs-toggle" onclick="toggleAbs(this)"&gt;Abstract&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="abstract"&gt;As climate change threats intensify, climate mitigation has become a central focus of government policy. This paper develops a multi-sector dynamic stochastic general equilibrium model of a closed economy to examine the effects of a regional emissions trading system. The economy features multiple energy input sectors that produce either brown or green energy, as well as a final output sector that produces aggregate goods. Both the input and output sectors require energy for production, but only brown energy generates emissions upon use. Emission permits are initially allocated across sectors and then traded in a competitive permit market. We show that the carbon price emerges as the shadow value of the emissions cap in the social planner's problem and, equivalently, as the equilibrium permit price in the decentralized market. We further incorporate a penalty term that captures the region's environmental contribution. The social preference is revised to include both pecuniary and non-pecuniary benefits of emissions reductions. Comparing outcomes in the penalized and unpenalized economies highlights the economic role of this penalty.&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="paper"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="ptitle"&gt;Social Value of Insurance&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="pauth"&gt;Ryan Dai and Qihe Tang&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;button class="abs-toggle" onclick="toggleAbs(this)"&gt;Abstract&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="abstract"&gt;We develop a tractable continuous-time general equilibrium model to study the social value of insurance (SVI) under rare disaster risk. In the model, capital is subject to diffusion risk and Poisson-driven jump losses, a subset of which is insurable. The social planner chooses investment and insurance coverage to maximize welfare under recursive preferences. We define the social value of insurance via a utility-indifference measure that makes an uninsured economy welfare-equivalent to an insured economy. In the baseline calibration with known disaster parameters, access to insurance is equivalent to a 7.25% increase in the economy's capital stock. We further show that deep uncertainty about disasters substantially amplifies this value. Specifically, uncertainty harms the uninsured economy disproportionately more than the insured economy, because insurance stabilizes welfare across alternative disaster regimes.&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="paper"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="ptitle"&gt;Multi-Regional Integrated Assessment under Jump Risk and Uncertainty&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="pauth"&gt;Ryan Dai and Qihe Tang&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;button class="abs-toggle" onclick="toggleAbs(this)"&gt;Abstract&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="abstract"&gt;The world we live in is undergoing rapid and unprecedented changes, fraught with multi-layered uncertainties. One of the driving forces behind this is climate change. Adaptation and mitigation are two commonly used approaches for combating climate change. We consider a regional integrated climate-economy (RICE) model in which climate damages are categorized into chronic and acute ones. Regions highly vulnerable to climate disasters often prioritize adaptation over mitigation, which reduces global efforts to combat climate change. We derive the optimal regional adaptation and mitigation expenditures under this RICE model. In doing so, we account for multi-layered uncertainties, which raise both adaptation and mitigation expenditures and increase the global social cost of carbon. Extensive numerical studies are conducted to illustrate our theoretical findings.&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- TALKS --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div id="p-talks" class="page"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h1&gt;Conference Talks&lt;/h1&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div style="border-top:.5px solid #ddd5c6;margin-top:1rem"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="talk"&gt;&lt;span class="tyr"&gt;2026&lt;/span&gt;&lt;span&gt;2026 UNSW Workshop on Risk and Actuarial Frontiers: Climate Risk &amp;amp; Insurance, UNSW Sydney, 22 May 2026 &lt;span style="font-size:.78rem;color:#8b3820;font-weight:600"&gt;(Scheduled)&lt;/span&gt;&lt;br&gt;&lt;em&gt;Pricing Carbon under the Emissions Trading System&lt;/em&gt; (with Prof. Qihe Tang)&lt;/span&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="talk"&gt;&lt;span class="tyr"&gt;2025&lt;/span&gt;&lt;span&gt;29th International Congress on Insurance: Mathematics and Economics, SungKyunkwan University, Seoul, 1&amp;ndash;4 July 2025 &lt;span style="font-size:.78rem;color:#8b3820;font-weight:600"&gt;(Scheduled)&lt;/span&gt;&lt;br&gt;&lt;em&gt;Social Value of Insurance&lt;/em&gt;&lt;/span&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="talk"&gt;&lt;span class="tyr"&gt;2025&lt;/span&gt;&lt;span&gt;Climate Risk &amp;amp; Finance 2025, Macquarie University, Sydney&lt;br&gt;&lt;em&gt;Pricing Carbon under Emissions Trading Systems&lt;/em&gt; (with Prof. Qihe Tang)&lt;/span&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="talk"&gt;&lt;span class="tyr"&gt;2025&lt;/span&gt;&lt;span&gt;Australasian Actuarial Education &amp;amp; Research Symposium, UNSW Sydney&lt;br&gt;&lt;em&gt;Pricing Carbon Emission Permits under the Cap-and-trade Policy&lt;/em&gt;&lt;/span&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="talk"&gt;&lt;span class="tyr"&gt;2025&lt;/span&gt;&lt;span&gt;28th International Congress on Insurance: Mathematics and Economics, University of Tartu, Estonia&lt;br&gt;&lt;em&gt;Multi-Regional Integrated Assessment under Jump Risk and Uncertainty&lt;/em&gt;&lt;/span&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="talk"&gt;&lt;span class="tyr"&gt;2024&lt;/span&gt;&lt;span&gt;Australasian Actuarial Education &amp;amp; Research Symposium, Monash Business School, Melbourne&lt;br&gt;&lt;em&gt;Multi-Regional Integrated Assessment under Jump Risk and Uncertainty&lt;/em&gt;&lt;/span&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="talk"&gt;&lt;span class="tyr"&gt;2024&lt;/span&gt;&lt;span&gt;27th International Congress on Insurance: Mathematics and Economics, UIUC &amp;amp; DePaul University, United States&lt;br&gt;&lt;em&gt;Pricing Carbon Emission Permits under the Cap-and-trade Policy&lt;/em&gt;&lt;/span&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="talk"&gt;&lt;span class="tyr"&gt;2023&lt;/span&gt;&lt;span&gt;Australasian Actuarial Education &amp;amp; Research Symposium, Victoria University of Wellington&lt;br&gt;&lt;em&gt;Pricing Carbon Emission Permits under the Cap-and-trade Policy&lt;/em&gt;&lt;/span&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- TEACHING --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div id="p-teaching" class="page"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h1&gt;Teaching&lt;/h1&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;UNSW Sydney &amp;mdash; Teaching Assistant&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="paper"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="ptitle"&gt;RISK5001 &amp;middot; Fundamentals of Risk and Risk Management&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="pauth"&gt;Terms 1&amp;amp;2, 2024; Terms 1&amp;ndash;3, 2025&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div style="font-size:.83rem;color:#555;margin-top:.2rem"&gt;Student evaluations: 5.7, 5.9, 5.8, 5.8&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="paper"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="ptitle"&gt;RISK5002 &amp;middot; Risk Analytics&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="pauth"&gt;Term 3, 2024&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div style="font-size:.83rem;color:#555;margin-top:.2rem"&gt;Student evaluation: 5.8&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;SWUFE &amp;mdash; Teaching Assistant&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="paper"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="ptitle"&gt;Mathematical Analysis&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="pauth"&gt;Semesters 2019&amp;ndash;2022&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="paper"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="ptitle"&gt;Linear Algebra&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="pauth"&gt;Semester 1, 2019&amp;ndash;2020&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- SERVICE --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div id="p-service" class="page"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h1&gt;Academic Service&lt;/h1&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Refereeing&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="paper"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="ptitle"&gt;Insurance: Mathematics and Economics&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="pauth"&gt;2023&amp;ndash;Present&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div style="font-size:.83rem;color:#555;margin-top:.2rem"&gt;1 paper (2023) &amp;middot; 1 (2024) &amp;middot; 3 (2025) &amp;middot; 2 (2026)&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="paper"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="ptitle"&gt;SCIENCE CHINA Mathematics&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="pauth"&gt;2024&amp;ndash;Present&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div style="font-size:.83rem;color:#555;margin-top:.2rem"&gt;1 paper (2024) &amp;middot; 2 (2025) &amp;middot; 1 (2026)&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Coordination&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="paper"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="ptitle"&gt;PhD Seminar Coordinator&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="pauth"&gt;School of Risk &amp;amp; Actuarial Studies, UNSW Sydney &amp;middot; Feb&amp;ndash;Dec 2025&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- AWARDS --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div id="p-awards" class="page"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h1&gt;Awards &amp;amp; Scholarships&lt;/h1&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div style="border-top:.5px solid #ddd5c6;margin-top:1rem"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="arow"&gt;&lt;span&gt;UNSW Tuition Fee Scholarship (TFS)&lt;/span&gt;&lt;span class="ayr"&gt;2023&amp;ndash;2026&lt;/span&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="arow"&gt;&lt;span&gt;UNSW School of Risk &amp;amp; Actuarial Studies PhD Research Fund&lt;/span&gt;&lt;span class="ayr"&gt;2023&amp;ndash;2025&lt;/span&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="arow"&gt;&lt;span&gt;UNSW Business School Development and Research Training Grant&lt;/span&gt;&lt;span class="ayr"&gt;2023&amp;ndash;2024&lt;/span&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="arow"&gt;&lt;span&gt;Provincial Outstanding Graduate, Sichuan Province&lt;/span&gt;&lt;span class="ayr"&gt;2022&lt;/span&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="arow"&gt;&lt;span&gt;Outstanding Postgraduate Award, SWUFE&lt;/span&gt;&lt;span class="ayr"&gt;2019&amp;ndash;2022&lt;/span&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="arow"&gt;&lt;span&gt;Zhuxin Scholarship, SWUFE&lt;/span&gt;&lt;span class="ayr"&gt;2021&lt;/span&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- GRANTS --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div id="p-grants" class="page"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h1&gt;Grants&lt;/h1&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="gbox" style="margin-top:1rem"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;p&gt;&lt;strong&gt;Australian Research Council Discovery Project&lt;/strong&gt;&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;p&gt;ARC DP250100078 &amp;middot; Research Assistant &amp;middot; $538,596 AUD&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;p style="color:#666"&gt;Lead CI: Prof. Qihe Tang &amp;middot; CI: Prof. Elise Payzan-LeNestour &amp;middot; Partner: Prof. Jose Blanchet&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- CV --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div id="p-cv" class="page"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h1&gt;Curriculum Vitae&lt;/h1&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p style="margin-top:.6rem;margin-bottom:1.2rem"&gt;Click below to view or download my full CV.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="https://drive.google.com/file/d/1shpEfcA9ezlbuIgVsbK3FTSb6mWcHA3U/view?usp=sharing" class="dl-btn" target="_blank"&gt;&amp;#8595; Download CV (PDF)&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;/main&gt;</p>
-<p class="p1">&lt;/div&gt;</p>
-<p class="p1">&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;script&gt;</p>
-<p class="p1">function go(id,el){</p>
-<p class="p1"><span class="Apple-converted-space">  </span>document.querySelectorAll('.page').forEach(p=&gt;p.classList.remove('on'));</p>
-<p class="p1"><span class="Apple-converted-space">  </span>document.querySelectorAll('#topnav a').forEach(a=&gt;a.classList.remove('active'));</p>
-<p class="p1"><span class="Apple-converted-space">  </span>document.getElementById('p-'+id).classList.add('on');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>if(el) el.classList.add('active');</p>
-<p class="p1">}</p>
-<p class="p1">function toggleAbs(btn){</p>
-<p class="p1"><span class="Apple-converted-space">  </span>const abs=btn.nextElementSibling;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>const open=abs.classList.toggle('open');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>btn.textContent=open?'Hide abstract':'Abstract';</p>
-<p class="p1">}</p>
-<p class="p1">&lt;/script&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
+
+<div id="site">
+<nav id="topnav">
+  <a href="#" class="active" onclick="go('home',this);return false">Home</a>
+  <a href="#" onclick="go('research',this);return false">Research</a>
+  <a href="#" onclick="go('talks',this);return false">Talks</a>
+  <a href="#" onclick="go('teaching',this);return false">Teaching</a>
+  <a href="#" onclick="go('service',this);return false">Service</a>
+  <a href="#" onclick="go('awards',this);return false">Awards</a>
+  <a href="#" onclick="go('grants',this);return false">Grants</a>
+  <a href="#" onclick="go('cv',this);return false">CV</a>
+</nav>
+
+<div id="body">
+<aside id="sidebar">
+  <div class="sb-photo">
+    <img id="prof-img" src="https://i.imgur.com/EoY77Sy.jpeg" alt="Xinran (Ryan) Dai" onerror="this.style.display='none';document.getElementById('prof-fb').style.display='flex'">
+    <div id="prof-fb" class="photo-fb" style="display:none">RD</div>
+  </div>
+  <div class="sb-name">Xinran (Ryan) Dai</div>
+  <div class="sb-title">PhD Candidate in<br>Risk &amp; Actuarial Studies</div>
+  <div class="sb-inst" style="margin-top:.3rem">UNSW Sydney</div>
+  <div class="sb-links">
+    <a href="mailto:ryan.dai@unsw.edu.au" class="lk" style="font-size:.8rem">&#9993; ryan.dai@unsw.edu.au</a>
+    <a href="https://www.linkedin.com/in/xinran-ryan-dai-b28254187/" class="lk" style="font-size:.8rem" target="_blank">LinkedIn</a>
+  </div>
+</aside>
+
+<main id="main">
+
+  <!-- HOME -->
+  <div id="p-home" class="page on">
+    <h1>Xinran (Ryan) Dai</h1>
+    <p style="color:#666;margin-bottom:1.3rem;font-size:.88rem">PhD Candidate &middot; School of Risk &amp; Actuarial Studies &middot; UNSW Business School &middot; Sydney, Australia</p>
+    <p>Welcome! I am a final-year PhD candidate in Risk and Actuarial Studies at the University of New South Wales, Sydney. My research sits at the intersection of actuarial science, mathematical finance, and environmental economics. I am very fortunate to be advised by <a href="https://www.unsw.edu.au/staff/qihe-tang" class="lk" target="_blank">Prof. Qihe Tang</a>, <a href="https://findanexpert.unimelb.edu.au/profile/606983-han-li" class="lk" target="_blank">A/Prof. Han Li</a>, and <a href="https://www.columbia.edu/~khl2114/" class="lk" target="_blank">A/Prof. Henry Lam</a>.</p>
+    <p>I am currently on the academic job market and welcome inquiries about research and teaching positions.</p>
+
+    <h2>Research Interests</h2>
+    <p>Climate Change and Insurance &middot; Carbon Pricing &middot; Integrated Assessment Modeling &middot; Uncertainty</p>
+    <div style="margin-top:.5rem">
+      <span class="tag">Climate Risk</span>
+      <span class="tag">Carbon Pricing</span>
+      <span class="tag">Insurance</span>
+      <span class="tag">Stochastic Modeling</span>
+      <span class="tag">Integrated Assessment</span>
+      <span class="tag">Uncertainty</span>
+    </div>
+
+    <h2>Education</h2>
+    <div style="border-top:.5px solid #ddd5c6">
+      <div class="edu"><strong>UNSW Sydney</strong> &middot; Ph.D. in Risk and Actuarial Studies, 2023&ndash;Present<br><span style="color:#666;font-size:.83rem">Supervisors: Prof. Qihe Tang, A/Prof. Han Li, A/Prof. Henry Lam</span></div>
+      <div class="edu"><strong>SWUFE</strong> &middot; M.A. in Mathematical Finance, 2019&ndash;2022<br><span style="color:#666;font-size:.83rem">Supervisor: Prof. Jingtang Ma</span></div>
+      <div class="edu"><strong>SWUFE</strong> &middot; B.S. in Mathematics and Applied Mathematics, 2015&ndash;2019</div>
+      <div class="edu"><strong>SWUFE</strong> &middot; B.A. in Economics, 2015&ndash;2019</div>
+    </div>
+  </div>
+
+  <!-- RESEARCH -->
+  <div id="p-research" class="page">
+    <h1>Research</h1>
+    <h2>Working Papers</h2>
+    <div class="paper">
+      <div class="ptitle">Pricing Carbon under the Emissions Trading System</div>
+      <div class="pauth">Ryan Dai, Henry Lam, and Qihe Tang</div>
+      <button class="abs-toggle" onclick="toggleAbs(this)">Abstract</button>
+      <div class="abstract">As climate change threats intensify, climate mitigation has become a central focus of government policy. This paper develops a multi-sector dynamic stochastic general equilibrium model of a closed economy to examine the effects of a regional emissions trading system. The economy features multiple energy input sectors that produce either brown or green energy, as well as a final output sector that produces aggregate goods. Both the input and output sectors require energy for production, but only brown energy generates emissions upon use. Emission permits are initially allocated across sectors and then traded in a competitive permit market. We show that the carbon price emerges as the shadow value of the emissions cap in the social planner's problem and, equivalently, as the equilibrium permit price in the decentralized market. We further incorporate a penalty term that captures the region's environmental contribution. The social preference is revised to include both pecuniary and non-pecuniary benefits of emissions reductions. Comparing outcomes in the penalized and unpenalized economies highlights the economic role of this penalty.</div>
+    </div>
+    <div class="paper">
+      <div class="ptitle">Social Value of Insurance</div>
+      <div class="pauth">Ryan Dai and Qihe Tang</div>
+      <button class="abs-toggle" onclick="toggleAbs(this)">Abstract</button>
+      <div class="abstract">We develop a tractable continuous-time general equilibrium model to study the social value of insurance (SVI) under rare disaster risk. In the model, capital is subject to diffusion risk and Poisson-driven jump losses, a subset of which is insurable. The social planner chooses investment and insurance coverage to maximize welfare under recursive preferences. We define the social value of insurance via a utility-indifference measure that makes an uninsured economy welfare-equivalent to an insured economy. In the baseline calibration with known disaster parameters, access to insurance is equivalent to a 7.25% increase in the economy's capital stock. We further show that deep uncertainty about disasters substantially amplifies this value. Specifically, uncertainty harms the uninsured economy disproportionately more than the insured economy, because insurance stabilizes welfare across alternative disaster regimes.</div>
+    </div>
+    <div class="paper">
+      <div class="ptitle">Multi-Regional Integrated Assessment under Jump Risk and Uncertainty</div>
+      <div class="pauth">Ryan Dai and Qihe Tang</div>
+      <button class="abs-toggle" onclick="toggleAbs(this)">Abstract</button>
+      <div class="abstract">The world we live in is undergoing rapid and unprecedented changes, fraught with multi-layered uncertainties. One of the driving forces behind this is climate change. Adaptation and mitigation are two commonly used approaches for combating climate change. We consider a regional integrated climate-economy (RICE) model in which climate damages are categorized into chronic and acute ones. Regions highly vulnerable to climate disasters often prioritize adaptation over mitigation, which reduces global efforts to combat climate change. We derive the optimal regional adaptation and mitigation expenditures under this RICE model. In doing so, we account for multi-layered uncertainties, which raise both adaptation and mitigation expenditures and increase the global social cost of carbon. Extensive numerical studies are conducted to illustrate our theoretical findings.</div>
+    </div>
+  </div>
+
+  <!-- TALKS -->
+  <div id="p-talks" class="page">
+    <h1>Conference Talks</h1>
+    <div style="border-top:.5px solid #ddd5c6;margin-top:1rem">
+      <div class="talk"><span class="tyr">2026</span><span>2026 UNSW Workshop on Risk and Actuarial Frontiers: Climate Risk &amp; Insurance, UNSW Sydney, 22 May 2026 <span style="font-size:.78rem;color:#8b3820;font-weight:600">(Scheduled)</span><br><em>Pricing Carbon under the Emissions Trading System</em> (with Prof. Qihe Tang)</span></div>
+      <div class="talk"><span class="tyr">2025</span><span>29th International Congress on Insurance: Mathematics and Economics, SungKyunkwan University, Seoul, 1&ndash;4 July 2025 <span style="font-size:.78rem;color:#8b3820;font-weight:600">(Scheduled)</span><br><em>Social Value of Insurance</em></span></div>
+      <div class="talk"><span class="tyr">2025</span><span>Climate Risk &amp; Finance 2025, Macquarie University, Sydney<br><em>Pricing Carbon under Emissions Trading Systems</em> (with Prof. Qihe Tang)</span></div>
+      <div class="talk"><span class="tyr">2025</span><span>Australasian Actuarial Education &amp; Research Symposium, UNSW Sydney<br><em>Pricing Carbon Emission Permits under the Cap-and-trade Policy</em></span></div>
+      <div class="talk"><span class="tyr">2025</span><span>28th International Congress on Insurance: Mathematics and Economics, University of Tartu, Estonia<br><em>Multi-Regional Integrated Assessment under Jump Risk and Uncertainty</em></span></div>
+      <div class="talk"><span class="tyr">2024</span><span>Australasian Actuarial Education &amp; Research Symposium, Monash Business School, Melbourne<br><em>Multi-Regional Integrated Assessment under Jump Risk and Uncertainty</em></span></div>
+      <div class="talk"><span class="tyr">2024</span><span>27th International Congress on Insurance: Mathematics and Economics, UIUC &amp; DePaul University, United States<br><em>Pricing Carbon Emission Permits under the Cap-and-trade Policy</em></span></div>
+      <div class="talk"><span class="tyr">2023</span><span>Australasian Actuarial Education &amp; Research Symposium, Victoria University of Wellington<br><em>Pricing Carbon Emission Permits under the Cap-and-trade Policy</em></span></div>
+    </div>
+  </div>
+
+  <!-- TEACHING -->
+  <div id="p-teaching" class="page">
+    <h1>Teaching</h1>
+    <h2>UNSW Sydney &mdash; Teaching Assistant</h2>
+    <div class="paper">
+      <div class="ptitle">RISK5001 &middot; Fundamentals of Risk and Risk Management</div>
+      <div class="pauth">Terms 1&amp;2, 2024; Terms 1&ndash;3, 2025</div>
+      <div style="font-size:.83rem;color:#555;margin-top:.2rem">Student evaluations: 5.7, 5.9, 5.8, 5.8</div>
+    </div>
+    <div class="paper">
+      <div class="ptitle">RISK5002 &middot; Risk Analytics</div>
+      <div class="pauth">Term 3, 2024</div>
+      <div style="font-size:.83rem;color:#555;margin-top:.2rem">Student evaluation: 5.8</div>
+    </div>
+    <h2>SWUFE &mdash; Teaching Assistant</h2>
+    <div class="paper">
+      <div class="ptitle">Mathematical Analysis</div>
+      <div class="pauth">Semesters 2019&ndash;2022</div>
+    </div>
+    <div class="paper">
+      <div class="ptitle">Linear Algebra</div>
+      <div class="pauth">Semester 1, 2019&ndash;2020</div>
+    </div>
+  </div>
+
+  <!-- SERVICE -->
+  <div id="p-service" class="page">
+    <h1>Academic Service</h1>
+    <h2>Refereeing</h2>
+    <div class="paper">
+      <div class="ptitle">Insurance: Mathematics and Economics</div>
+      <div class="pauth">2023&ndash;Present</div>
+      <div style="font-size:.83rem;color:#555;margin-top:.2rem">1 paper (2023) &middot; 1 (2024) &middot; 3 (2025) &middot; 2 (2026)</div>
+    </div>
+    <div class="paper">
+      <div class="ptitle">SCIENCE CHINA Mathematics</div>
+      <div class="pauth">2024&ndash;Present</div>
+      <div style="font-size:.83rem;color:#555;margin-top:.2rem">1 paper (2024) &middot; 2 (2025) &middot; 1 (2026)</div>
+    </div>
+    <h2>Coordination</h2>
+    <div class="paper">
+      <div class="ptitle">PhD Seminar Coordinator</div>
+      <div class="pauth">School of Risk &amp; Actuarial Studies, UNSW Sydney &middot; Feb&ndash;Dec 2025</div>
+    </div>
+  </div>
+
+  <!-- AWARDS -->
+  <div id="p-awards" class="page">
+    <h1>Awards &amp; Scholarships</h1>
+    <div style="border-top:.5px solid #ddd5c6;margin-top:1rem">
+      <div class="arow"><span>UNSW Tuition Fee Scholarship (TFS)</span><span class="ayr">2023&ndash;2026</span></div>
+      <div class="arow"><span>UNSW School of Risk &amp; Actuarial Studies PhD Research Fund</span><span class="ayr">2023&ndash;2025</span></div>
+      <div class="arow"><span>UNSW Business School Development and Research Training Grant</span><span class="ayr">2023&ndash;2024</span></div>
+      <div class="arow"><span>Provincial Outstanding Graduate, Sichuan Province</span><span class="ayr">2022</span></div>
+      <div class="arow"><span>Outstanding Postgraduate Award, SWUFE</span><span class="ayr">2019&ndash;2022</span></div>
+      <div class="arow"><span>Zhuxin Scholarship, SWUFE</span><span class="ayr">2021</span></div>
+    </div>
+  </div>
+
+  <!-- GRANTS -->
+  <div id="p-grants" class="page">
+    <h1>Grants</h1>
+    <div class="gbox" style="margin-top:1rem">
+      <p><strong>Australian Research Council Discovery Project</strong></p>
+      <p>ARC DP250100078 &middot; Research Assistant &middot; $538,596 AUD</p>
+      <p style="color:#666">Lead CI: Prof. Qihe Tang &middot; CI: Prof. Elise Payzan-LeNestour &middot; Partner: Prof. Jose Blanchet</p>
+    </div>
+  </div>
+
+  <!-- CV -->
+  <div id="p-cv" class="page">
+    <h1>Curriculum Vitae</h1>
+    <p style="margin-top:.6rem;margin-bottom:1.2rem">Click below to view or download my full CV.</p>
+    <a href="https://drive.google.com/file/d/1shpEfcA9ezlbuIgVsbK3FTSb6mWcHA3U/view?usp=sharing" class="dl-btn" target="_blank">&#8595; Download CV (PDF)</a>
+  </div>
+
+</main>
+</div>
+</div>
+
+<script>
+function go(id,el){
+  document.querySelectorAll('.page').forEach(p=>p.classList.remove('on'));
+  document.querySelectorAll('#topnav a').forEach(a=>a.classList.remove('active'));
+  document.getElementById('p-'+id).classList.add('on');
+  if(el) el.classList.add('active');
+}
+function toggleAbs(btn){
+  const abs=btn.nextElementSibling;
+  const open=abs.classList.toggle('open');
+  btn.textContent=open?'Hide abstract':'Abstract';
+}
+</script>
+
 </body>
 </html>
